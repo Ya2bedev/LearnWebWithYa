@@ -171,6 +171,9 @@ h5 {
 		border-bottom: 1px solid var(--lightgrey--color);
 		width: 100%;
 	}
+	.nav-link > a:hover {
+		border-bottom: none;
+	}
 }
 /* END OF NAVIGATION */
 
@@ -203,6 +206,7 @@ h5 {
 	.hero-desc {
 		text-align: center;
 	}
+	
 }
 /* END OF HERO SECTION */
 
@@ -217,18 +221,8 @@ h5 {
 	text-align: center;
 	font-size: 5rem;
 	margin: 7rem 0;
-	text-transform: capitalize;
-	transition: all 0.2s;
-	animation: zoom-in-out 2s infinite alternate;
 }
-@keyframes zoom-in-out {
-	0% {
-		transform: scale(1.2);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
+
 .course-card {
 	padding: 2rem;
 	background-color: var(--white--color);
